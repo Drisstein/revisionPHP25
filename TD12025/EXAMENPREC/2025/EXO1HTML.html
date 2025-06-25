@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-CSS</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    #navbar {S
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        align-items: center;
+        margin: auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 50px;
+        background-color: #f7b402;
+
+
+
+    }
+
+    #navbar ul li {
+        text-decoration: none;
+        background-color: aqua;
+        font-size: large;
+        padding: 5px 10px;
+        border-radius: 10px;
+        color: black;
+    }
+
+    main {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        margin-top: 70px;
+
+    }
+
+    header {
+        background-color: #7014c0;
+        padding: 20px;
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+
+
+    }
+
+    .section {
+        border: 5px solid;
+        border-radius: 10px;
+        padding: 15px;
+
+    }
+
+    .section1 {
+        border: 1px solid;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: aqua;
+    }
+
+    .section1:hover {
+        border: 1px solid;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: rgb(5, 203, 54);
+        color: white;
+    }
+
+    .section2 {
+        border: 1px solid;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: beige;
+    }
+
+    .section2:hover {
+        border: 1px solid;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: rgb(5, 203, 54);
+        color: white;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #7014c0;
+        padding: 10px;
+        height: auto;
+        color: white;
+    }
+</style>
+
+<body>
+    <header style="text-align: center;">EN-TETE</header>
+    <nav id="navbar">
+        <ul id="navbar">
+            <li class="nav-links"><a href="#Accueil">Accueil</a></li>
+            <li class="nav-links"><a href="#Services">Services</a></li>
+            <li class="nav-links"><a href="#Contacts">Contacts</a></li>
+        </ul>
+    </nav>
+    <main class="section">
+        <section class="section1">
+            <h2>Section 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dignissimos quae molestiae architecto
+                quidem saepe quasi quos omnis pariatur eius aperiam adipisci fugit modi, quo cupiditate autem accusamus
+                asperiores inventore!</p>
+        </section>
+        <section class="section2">
+            <h2>Section 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dignissimos quae molestiae architecto
+                quidem saepe quasi quos omnis pariatur eius aperiam adipisci fugit modi, quo cupiditate autem accusamus
+                asperiores inventore!</p>
+        </section>
+    </main>
+    <footer style="text-align: center;">&copf;Copyright, SRT2 All rights reserved</footer>
+
+</body>
+
+</html>
